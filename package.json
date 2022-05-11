@@ -1,5 +1,5 @@
 {
-  "name": "cpmech.toggle-inlay-hints",
+  "name": "vscode-toggle-inlay-hints",
   "displayName": "Toggle Inlay Hints",
   "description": "A status bar item to toggle inlay hints",
   "version": "0.0.1",
@@ -18,9 +18,9 @@
   "author": "Dorival Pedroso (dorival.pedroso@gmail.com)",
   "icon": "icon.png",
   "bugs": {
-    "url": "https://github.com/cpmech/toggle-inlay-hints/issues"
+    "url": "https://github.com/cpmech/vscode-toggle-inlay-hints/issues"
   },
-  "homepage": "https://marketplace.visualstudio.com/items?itemName=cpmech.toggle-inlay-hints",
+  "homepage": "https://marketplace.visualstudio.com/items?itemName=cpmech.vscode-toggle-inlay-hints",
   "activationEvents": [
     "onStartupFinished"
   ],
@@ -28,7 +28,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "cpmech.toggle-inlay-hints.doToggle",
+        "command": "cpmech.toggle-inlay-hints.run",
         "title": "Toggle Inlay Hints"
       }
     ]
@@ -41,7 +41,7 @@
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js",
     "pkg": "vsce package",
-    "add2code": "code --install-extension cpmech.toggle-inlay-hints-0.0.1.vsix"
+    "add2code": "code --install-extension vscode-toggle-inlay-hints-0.0.1.vsix"
   },
   "devDependencies": {
     "@types/vscode": "^1.67.0",
