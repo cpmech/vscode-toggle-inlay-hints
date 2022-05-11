@@ -22,7 +22,7 @@
   },
   "homepage": "https://marketplace.visualstudio.com/items?itemName=cpmech.vscode-toggle-inlay-hints",
   "activationEvents": [
-    "onCommand:vscode-toggle-inlay-hints.doToggle"
+    "onStartupFinished"
   ],
   "main": "./out/extension.js",
   "contributes": {
