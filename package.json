@@ -40,7 +40,8 @@
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js",
-    "pkg": "vsce package"
+    "pkg": "vsce package",
+    "add2code": "code --install-extension vscode-toggle-inlay-hints-0.0.1.vsix"
   },
   "devDependencies": {
     "@types/vscode": "^1.67.0",
