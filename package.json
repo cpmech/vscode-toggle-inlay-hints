@@ -9,6 +9,18 @@
   "categories": [
     "Other"
   ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cpmech/vscode-toggle-inlay-hints.git"
+  },
+  "publisher": "cpmech",
+  "author": "Dorival Pedroso (dorival.pedroso@gmail.com)",
+  "icon": "icon.png",
+  "bugs": {
+    "url": "https://github.com/cpmech/toggle-inlay-hints/issues"
+  },
+  "homepage": "https://marketplace.visualstudio.com/items?itemName=cpmech.vscode-toggle-inlay-hints",
   "activationEvents": [
     "onCommand:vscode-toggle-inlay-hints.doToggle"
   ],
@@ -27,7 +39,8 @@
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
-    "test": "node ./out/test/runTest.js"
+    "test": "node ./out/test/runTest.js",
+    "pkg": "vsce package"
   },
   "devDependencies": {
     "@types/vscode": "^1.67.0",
