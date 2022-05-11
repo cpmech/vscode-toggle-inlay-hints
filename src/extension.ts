@@ -2,7 +2,7 @@
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
 
-const COMMAND = 'vscode-toggle-inlay-hints.doToggle';
+const COMMAND = 'cpmech.toggle-inlay-hints.doToggle';
 const SETTING = 'editor.inlayHints.enabled';
 
 const isEnabled = () => {
